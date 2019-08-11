@@ -1,0 +1,62 @@
+\documentclass[a4paper,10pt]{article}
+
+%%% Packages supplémentaires
+%\usepackage{fullpage} % uncomment for small margins
+%\usepackage{graphicx}
+
+%%%%% UNCOMMENT FOR MATHS
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[pdftex]{hyperref}
+%\usepackage{varioref}
+
+%\usepackage{index}
+%\usepackage{makeidx}
+%\usepackage{array}
+%\usepackage{aeguill} % guillemets (or simply use ctrl-w and ctrl-x)
+
+%%%%% UNCOMMENT BOTH FOR FRENCH
+%%%%% changes the date, and the abstract and reference sections' title
+\usepackage[french]{babel}
+%\usepackage[T1]{fontenc}
+%\usepackage{eurosym}
+
+
+\usepackage{color}  % for... colors
+\usepackage{xcolor}
+%\usepackage{minted}
+\definecolor{codebg}{rgb}{0.96,0.96,0.96}
+
+
+\newcommand{\version}{1.0}
+\newcommand{\fixme}[1]{\textcolor{red}{\textbf{FIXME}: #1}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{TODO}: #1}}
+
+%opening
+\title{Document title}
+\author{Document's author}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Some abstract goes here...
+\end{abstract}
+
+\section{First section}
+%\label{sec:section1}
+
+Text of first section.
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{} % .bib is assumed
+
+\end{document}

@@ -1,0 +1,99 @@
+\documentclass[11pt, xcolor={dvipsnames}]{beamer} % English
+%\documentclass[11pt, xcolor={dvipsnames}, french]{beamer} % Fran�ais
+
+
+
+%%%%%%%%%%
+%%%%% import some useful packages
+%%%%%%%%%%
+
+%\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc}
+\usepackage[frenchb]{babel}
+%\usepackage[english]{babel}
+%\usepackage{frenchle}
+
+%\usepackage{fancybox}
+\usepackage{graphicx}
+\usepackage{xcolor,colortbl}
+
+\newcommand{\fixme}[1]{\textcolor{red}{\textbf{FIXME}: #1}}
+
+\newcommand{\greyText}[1]{\textcolor{Gray}{#1}}
+
+
+\usetheme{Madrid}
+%\usetheme{Singapore}
+%\usetheme{Berlin}
+\useoutertheme{infolines}  % add footline with title and slide number
+
+
+
+%%%%%%%%%%
+%%%%% Document's metadata (title, author, date,...)
+%%%%%%%%%%
+
+
+\title[short title]{Presentation title}
+\subtitle[]{Presentation (optional) subtitle}
+
+\author[F. Lastname]{Firstname Lastname}
+%\author[F. Lastname]{Firstname Lastname\\~\texttt{firstname.lastname@univ-rennes1.fr}}
+%\institute[]{Universit� de Rennes 1, France}
+%\date{20 juin 2017}
+
+\setbeamertemplate{navigation symbols}{} % Get rid of navigation symbols
+
+
+
+
+%%%%%%%%%%
+%%%%% The real document begins
+%%%%%%%%%%
+
+\begin{document}
+
+
+
+%%%%%%%%%%
+%%%%% First slide with title
+%%%%%%%%%%
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+
+
+%%%%%%%%%%
+%%%%% The presentation can be organized into a hierarchy of sections.
+%%%%% This may be used in the outline, but otherwise usually not displayed
+%%%%%%%%%%
+\section{Fist section (not displayed)}
+
+
+
+\begin{frame}
+ \frametitle{Slide title}
+ 
+Some concent.
+
+\end{frame}
+
+
+\begin{frame}
+ \frametitle{Second slide: blocks}
+
+
+\begin{block}{Block title}
+ Block content
+\end{block}
+
+\begin{alertblock}{Alertblock title}
+ Block content
+\end{alertblock}
+
+\end{frame}
+
+
+
+\end{document}
